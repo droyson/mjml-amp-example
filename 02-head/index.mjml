@@ -1,0 +1,27 @@
+<mjml>
+  <mj-head>
+    <mj-title>01-basics</mj-title>
+    <!-- <mj-font href="https://fonts.googleapis.com/css2?family=Pacifico" name="Pacifico" /> -->
+    <!-- <mj-attributes>
+    	<mj-all font-family="Pacifico" color="green" />
+    </mj-attributes> -->
+    <!-- <mj-style>
+      .cover-image img {
+        object-fit: contain;
+      }
+    </mj-style> -->
+    <!-- <mj-breakpoint width="700px" /> -->
+  </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column background-color="red">
+        <mj-text color="lightblue">This is a Text block 1</mj-text>
+        <mj-image css-class="cover-image" height="300px" src="https://www.pokemon.com/static-assets/app/static3/img/og-default-image.jpeg" />
+      </mj-column>
+      <mj-column background-color="lightblue">
+        <mj-text color="black">This is a Text block 2</mj-text>
+        <mj-image css-class="cover-image" height="300px" src="https://m.media-amazon.com/images/M/MV5BNDcwZDc2NTEtMzU0Ni00YTQyLWIyYTQtNTI3YjM0MzhmMmI4XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_QL75_UX190_CR0,2,190,281_.jpg" />
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
